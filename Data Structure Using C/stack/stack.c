@@ -3,7 +3,7 @@
 #define maxsize 10
 
 int stack[maxsize], top = -1;
-
+void kick();
 void push();
 void pop();
 void display();
